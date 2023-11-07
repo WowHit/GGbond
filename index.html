@@ -1,0 +1,150 @@
+<!DOCITYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>GGBond</title>
+        <style>
+            body {
+                margin: 0;
+                height: 100vh;
+                background-color:#dee4e4e6;
+            }
+            .name {
+                color: rgb(91, 189, 213);
+                font-size:big;
+                margin-left: 6px;
+                margin-left: 20px;
+            }
+            .content {
+                text-align: center;
+                font-size:big;
+            }
+            /* * {
+                border: 1px solid black;
+            }*/
+            .flex {
+                display: flex;
+            }
+            .backcolor {
+                background-color: white;
+            }
+            .flex1 {
+                flex: 1;
+            }
+            .flexCol {
+                flex-direction: column;
+            }
+            .mg8 {
+                margin: 8px;
+            }
+            .mgr8 {
+                margin-right: 8px;
+            }
+            .mgt8 {
+                margin-top: 8px;
+            }
+        </style>
+    </head>
+    <body class="flex">
+        <!-- 侧 -->
+        <div style="width: 200px;" class="backcolor mgr8">
+            <!-- 信息栏 -->
+            <div style="padding:10px;align-items:center;border-bottom:1px solid black" class="flex">
+                <img 
+                src="https://kangwenchang.com/logo.png"
+                width="40px"
+                height="40px"
+                />
+                <p class="name">张  喆</p>
+            </div>
+            <div class="content">
+                <ul>
+                    <li><p>性别:男</p></li>
+                    <li><p>邮箱：22222@qq.com</p></li>
+                    <li><p>QQ:5201314</p></li>
+                    <li><p>手机号：110</p></li>
+                    <li><p>爱好：GGBond</p></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 主 -->
+        <div class="flex flex1 flexCol">
+            <!-- 头部栏 -->
+            <div style="height: 60px; z-index: 1" class="backcolor">
+                <div class="content">
+                    <p style="color: gold;">不想改了，继续优化下去就是另外的价格了</p>
+                </div>
+            </div>
+            <!-- 内容区 -->
+            <div style="overflow: auto" class="flex flex1 mgt8">
+                <!-- 左区 -->
+                <div style="flex:3" class="flex flexCol mgr8">
+                    <!-- 头部三兄弟 -->
+                    <div class="flex">
+                        <div style="height: 80px" class="flex1 backColor mgr8">
+                            <div class="content">
+                                <p>我是谁？</p>
+                            </div>
+                        </div>
+                        <div style="height: 80px" class="flex1 backColor mgr8">
+                            <div class="content">
+                                <p>我从哪里来？</p>
+                            </div>
+                        </div>
+                        <div style="height: 80px" class="flex1 backColor">
+                            <div class="content">
+                                <p>我要到哪里去？</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 竖向三兄弟 -->
+                    <div class="flex flexCol">
+                        <div style="height: 200px;" class="backColor mgt8">
+                            <div class="content">
+                                <p>北苑堕落坑——哈尔滨饺子馆<br></p>
+                                <ul>
+                                    <li>炸蘑菇</li>
+                                    <li>猪肉炖粉条</li>
+                                    <li>东北大乱炖</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="height: 200px;" class="backColor mgt8">
+                            <div class="content">
+                                <p>金瀚林——欣姐铁锅炖<br></p>
+                                <ul>
+                                    <li>焖面好吃</li>
+                                    <li>等待有缘人请我吃铁锅炖大鹅</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div style="height: 200px;" class="backColor mgt8">
+                            <div class="content">
+                                <p>联建——烫哥麻辣烫<br></p>
+                                <ul>
+                                    <li>兰花干</li>
+                                    <li>牛杂</li>
+                                    <li>小香肠</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <!-- 右区 -->
+                <div style="flex:1" class="flex flexCol mgt8">
+                    <div style="height: 120px;" class="backColor">
+                        <div class="content">
+                            <p>喜欢GGBond吗？嗯？说话？</p>
+                        </div>
+                    </div>
+                    <div style="height: 250px;" class="backColor mgt8">
+                        <div class="content">
+                            <p>前辈，和我交往吧！</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
